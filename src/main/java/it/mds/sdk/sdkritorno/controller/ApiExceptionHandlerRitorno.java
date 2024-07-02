@@ -1,3 +1,5 @@
+/* SPDX-License-Identifier: BSD-3-Clause */
+
 package it.mds.sdk.sdkritorno.controller;
 
 import it.mds.sdk.sdkritorno.exception.ApiErrorResponse;
