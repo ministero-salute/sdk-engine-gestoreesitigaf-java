@@ -4,7 +4,7 @@
 
 Il Ministero della Salute (MdS) metterà a disposizione degli Enti, da cui riceve dati, applicazioni SDK specifiche per flusso logico e tecnologie applicative (Java, PHP e C#) per verifica preventiva (in casa Ente) della qualità del dato prodotto.
 
-![](img/Aspose.Words.aeaba196-b5f9-465a-a66e-53817f224f99.002.png)
+![](img/img4.png)
 
 Nel presente documento sono fornite la struttura e la sintassi dei tracciati previsti dalla soluzione SDK per avviare il proprio processo elaborativo.
 
@@ -36,7 +36,7 @@ Nella tabella riportata di seguito sono elencati tutti gli acronimi e le definiz
 
 Di seguito una rappresentazione del processo di monitoraggio e scaricamento del FUS dall’ente verso l’area MdS attraverso l’utilizzo dell’applicativo SDK.
 
-![](img/Aspose.Words.aeaba196-b5f9-465a-a66e-53817f224f99.003.png)
+![](img/img8.png)
 
 Il processo prevede:
 
@@ -67,7 +67,7 @@ Il processo prevede:
 Il processo in oggetto usa la procedura denominata **monEsiUploadXML**,** la quale consente di verificare l’esito dell’elaborazione su MdS di un pacchetto di file individuati attraverso l’indicazione di un insieme di ID\_UPLOAD. Dall’immagine seguente si può osservare l’interazione tra l’SDK e il MdS:
 
 
-![](img/Aspose.Words.aeaba196-b5f9-465a-a66e-53817f224f99.004.png)
+![](img/img7.png)
 
 
 L' informazione necessarie alla corretta invocazione della procedura è la seguente:
@@ -104,7 +104,7 @@ Il processo in oggetto usa la procedura denominata **dwnldAnmSctUpload**, la qua
 
 Nella figura seguente è descritta l’interazione tra l’SDK e il MdS:
 
-![](img/Aspose.Words.aeaba196-b5f9-465a-a66e-53817f224f99.005.png)
+![](img/img7.png)
 
 Le informazioni necessarie alla corretta invocazione della procedura sono le seguenti:
 
@@ -171,6 +171,24 @@ Il naming del file sarà: **IDUPLOAD.log**. Nel caso di più esecuzioni consecut
 |CODICE ERRORE DOWNLOAD FUS|ErrorCode della response dwnldAsnmSctUpload|
 |DESCRIZIONE ERRORE DOWNLOAD FUS|TextCode della response dwnldAsnmSctUpload|
 |ALLEGATO|Path assoluto del nome file Validation ottenuto in caso di esito uguale a Mx11 (allegato alla response monEsiUploadXML), oppure del nome file FUS ottenuto in caso di esito uguale a Mx21 o Mx22 (allegato alla response dwnldAnmSctUpload).|
+
+
+## Istruzioni per l'installazione
+
+Per l'installazione e l'avvio dell'engine seguire la documentazione tecnica dettagliata disponibile all'url [`INSTALL.md`](https://github.com/ministero-salute/sdk-utilities-regole-properties/blob/main/INSTALL.md).
+
+
+## 📝 Licenza
+Questo progetto è rilasciato sotto licenza BSD 3-Clause License così come definita [BSD 3-Clause License](./LICENSE).
+
+## 🤝 Contributi
+I contributi sono benvenuti. Si prega di consultare il file [`CONTRIBUTING.md`](CONTRIBUTING.md) per le linee guida su come contribuire al progetto.
+
+## 📞 Contatti
+Per ulteriori informazioni, contattare:
+
+- **Service Desk - Ministero della Salute**: servicedesk.mds@medilifegroupspa.com
+- **Amministrazione titolare**: [Ministero della Salute](https://www.salute.gov.it)
 
 ## mantainer:
  Accenture SpA until January 2026
